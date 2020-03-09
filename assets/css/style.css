@@ -6,6 +6,14 @@
     background-color: #615e5e;
 }
 
+.bg-color-three-reasons {
+    background-color: #fff;
+}
+
+.bg-color-presonal-info {
+    background-color: #f4f4f4;
+}
+
 .ui-menu-color-home {
     background-color: #e67e22;
 }
@@ -188,7 +196,7 @@ footer {
     height: 50px;
     padding: 12px 0;
     border-radius: 50%;
-    font-size: 13px;
+    font-size: 22px;
     line-height: 7px;
     text-align: center;
     color: #fafafa;
@@ -218,3 +226,37 @@ footer {
     margin-bottom: 15px;
 }
 
+/*----------------------------------------------------------personal info*/
+
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+    display: inline-block;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    position: relative;
+    width: 60%;
+}
