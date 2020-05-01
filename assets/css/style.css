@@ -14,12 +14,24 @@
     background-color: #8f8f8f;
 }
 
+.bg-color-personal-skills {
+    background-color: #fff;
+}
+
 .bg-color-work-history{
     background-color: #9b59b6;
 }
 
 .bg-color-contact {
     background-color: #fff
+}
+
+.bg-color-conferences {
+    background-color: #f4f4f4;
+}
+
+.bg-color-groups {
+    background-color: #ffffff;
 }
 
 .ui-menu-color-home {
@@ -35,7 +47,22 @@
 }
 
 .ui-menu-color-download {
+    background-color: #e2cd11;
+}
+
+.ui-menu-color-github {
+    background-color: #1c4a6c;
+}
+
+.ui-menu-color-interests {
+    background-color: #e74c3c;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
     background-color: #525252;
+    color: #555555;
 }
 
 /*----------------------------------------------------------Special paddings/margins/text */
@@ -166,6 +193,10 @@ header {
     letter-spacing: 2px;
 }
 
+.container-fluid {
+    padding-right: 0;
+}
+
 /*----------------------------------------------------------Hover*/
 
 .hvr-sweep-to-bottom:before {
@@ -261,6 +292,7 @@ footer {
 }
 
 .personal-info-item .key {
+    display: inline-block;
     width: 30%;
     margin-right: 21px;
     padding-top: 2px;
@@ -269,9 +301,11 @@ footer {
 
 .personal-info-item .key p {
     font-weight: 700;
+
 }
 
 .personal-info-item .value {
+    display: inline-block;
     position: relative;
     width: 60%;
 }
